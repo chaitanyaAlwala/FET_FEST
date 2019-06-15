@@ -1,0 +1,43 @@
+﻿<div class="card">
+  <div class="card-header">
+    {{pageTitle}}
+  </div>
+  <div class="card-body">
+    <div class="container-fluid">
+      <div class="row">
+      <div class="col-sm-6">
+        <h4>MR Fixit</h4>
+          <a [routerLink]="['/mrfixit']"><img src="../../assets/images/mechanicPic.jpg"
+             class="img-responsive center-block dashboard-images"
+              /></a>
+      </div>
+      <div class="col-sm-6">
+          <h4>Exposed</h4>
+          <a [routerLink]="['/exposed']">
+        <img src="../../assets/images/exposed.jpg"
+             class="img-responsive center-block dashboard-images"
+              />
+             </a>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <h4>Post Your Heart</h4>
+            <a [routerLink]="['/postyourheart']">
+          <img src="../../assets/images/postProblems.jpg"
+               class="img-responsive center-block dashboard-images"
+                />
+               </a>
+        </div>
+        <div class="col-sm-6">
+            <h4>Incubator</h4>
+            <a [routerLink]="['/incubator']">
+          <img src="../../assets/images/incubator.jpg"
+               class="img-responsive center-block dashboard-images"
+               />
+              </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
